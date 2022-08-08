@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         registerForContextMenu(mytextview)
     }
-
+// this code is for options menu
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.mymenu,menu)
         return super.onCreateOptionsMenu(menu)
